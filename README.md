@@ -54,7 +54,7 @@ API: https://fakestoreapi.com
 🧪 Local Setup
 
 # 1. Clone the repository
-https://github.com/your-username/products-app.git
+https://github.com/samx774/Aqtar-Task.git
 
 # 2. Install dependencies
 npm install
