@@ -66,7 +66,7 @@ Visit http://localhost:3000 to view the app.
 
 🌐 Live Demo
 
-You can try the app live here 👉 https://your-vercel-app.vercel.app
+You can try the app live here 👉 https://aqtar-task.vercel.app/
 
 🙋‍♂️ Author
 
