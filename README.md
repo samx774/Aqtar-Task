@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🛍️ Products CRUD App
 
-## Getting Started
+A simple and clean full-stack CRUD application built with Next.js (App Router), Tailwind CSS, Axios, Formik + Yup, and FakeStoreAPI.
 
-First, run the development server:
+This project was created as a technical task for a React/Next.js developer position.
 
-```bash
+🚀 Features
+
+✅ Display all products with image, title, and price
+
+🔍 View product details with description and category
+
+✏️ Edit existing products (Formik form with validation)
+
+➕ Add new products
+
+❌ Delete products with confirmation
+
+🔁 Loading indicators and client-side validation
+
+🔔 Success/error notifications with react-hot-toast
+
+📦 API handled via Axios with interceptors
+
+⚡ SEO & performance optimized via generateMetadata and next/image
+
+🧰 Tech Stack
+
+Framework: Next.js (App Router)
+
+Styling: Tailwind CSS
+
+Forms: Formik + Yup
+
+HTTP Client: Axios
+
+Notifications: React Hot Toast
+
+API: https://fakestoreapi.com
+
+📁 Project Structure
+
+/app
+  /product
+    /[id]         -> Product details page
+    /edit/[id]    -> Edit product page
+    /new          -> Add product page
+/components
+  ProductForm.js  -> Formik form used for create/edit
+  DeleteButton.js -> Delete product logic
+/lib
+  axios.js        -> Axios instance with interceptors
+
+🧪 Local Setup
+
+# 1. Clone the repository
+https://github.com/your-username/products-app.git
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can try the app live here 👉 https://your-vercel-app.vercel.app
 
-## Learn More
+🙋‍♂️ Author
 
-To learn more about Next.js, take a look at the following resources:
+Built with ❤️ by [Your Name].
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
